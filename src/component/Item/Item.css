@@ -1,0 +1,19 @@
+.Item_Container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.Item_Star {
+	flex: 1;
+}
+.Item_Middle {
+	flex: 3;
+}
+.Item_Middle > div {
+	display: inline-block;
+}
+.Star {
+    text-align: center;
+    vertical-align: top;
+    margin-right: 20px;
+}
